@@ -1,11 +1,12 @@
-﻿using System.Text;
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Text;
 
 char[] vowels = ['a', 'e', 'i', 'o', 'u'];
 string[] forbidden = ["ab", "cd", "pq", "xy"];
 string txt = File.ReadAllText("puzzle.txt");
 string[] letters = txt.Split('\n');
-PartOne(letters);
-PartTwo(letters);
+// PartOne(letters);
+//PartTwo(letters);
 
 
 void PartOne(string[] letters)
